@@ -1,4 +1,11 @@
-//create variables to accept first and second user imput
-//Create an addition function 
-//the addition function will return the addition for input a and input b
-//invoke addition function to run the calculator
+const prompt = require ("prompt-sync")();
+
+let a = parseInt (prompt("Insert first number"));
+leb b = parseInt (prompt("Insert second number"));
+
+function addition() {
+    return  a + b;
+}
+   
+
+console.log(a);
