@@ -9,4 +9,5 @@ function addition() {
 }
 
 //invoke addition function to run the calculator
+console.log(addition)();
 
